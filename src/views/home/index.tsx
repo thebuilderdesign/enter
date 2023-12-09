@@ -48,7 +48,7 @@ export const HomeView: FC = ({ }) => {
       <div style={{ display: 'flex' }}>
         <Image
           alt=""
-          src='/sol-logo.png'
+          src='/sol.png'
           width={32}
           height={32}
           style={{
@@ -61,7 +61,7 @@ export const HomeView: FC = ({ }) => {
         />
         <Image
           alt=""
-          src='/sol-logo.jpg'
+          src='/sol.png'
           width={32}
           height={32}
           style={{
@@ -100,7 +100,7 @@ export const HomeView: FC = ({ }) => {
           <div style={{ display: 'flex' }}>
         <Image
           alt=""
-          src='/sol-logo.png'
+          src='/sol.png'
           width={32}
           height={32}
           style={{
