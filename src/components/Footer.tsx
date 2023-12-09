@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Footer: FC = () => {
     return (
         <div className="flex">
-            <footer className="border-t-2 border-[#141414] bg-black hover:text-white w-screen" >
+            <footer className="border-t-2 border-[#141414] bg-transparent hover:text-white w-screen" >
                 <div className="py-12 ml-12 mr-12">
                     <div className="relative grid grid-cols-2 gap-2 md:grid-cols-6 md:gap-8 md:space-x-12">
                         <div className='flex flex-col items-center col-span-2 mx-4 md:items-start'>
