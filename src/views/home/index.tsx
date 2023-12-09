@@ -1,6 +1,7 @@
 // Next, React
 import { FC, useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Wallet
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
@@ -43,6 +44,36 @@ export const HomeView: FC = ({ }) => {
         <div className="relative group justify-space-between">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
           <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2 ">
+          <div style={{display: 'responsive'}}>
+      <div style={{ display: 'flex' }}>
+        <Image
+          alt=""
+          src='/sol-logo.png'
+          width={32}
+          height={32}
+          style={{
+            objectFit: 'contain', // cover, contain, none
+            borderRadius: '100%',
+            justifyContent: 'space-between',
+            display: 'flex',
+            gap: '0px'
+          }}
+        />
+        <Image
+          alt=""
+          src='/sol-logo.jpg'
+          width={32}
+          height={32}
+          style={{
+            objectFit: 'contain', // cover, contain, none
+            borderRadius: '100%',
+            justifyContent: 'space-between',
+            display: 'flex',
+            gap: '0px'
+          }}
+        />
+      </div>
+          </div>    
           <code className="truncate">{`RUWET - SOL `} </code>
               <div></div>
             <pre data-prefix=">">
@@ -66,6 +97,34 @@ export const HomeView: FC = ({ }) => {
                         </button>
           </div>
           <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+          <div style={{ display: 'flex' }}>
+        <Image
+          alt=""
+          src='/sol-logo.png'
+          width={32}
+          height={32}
+          style={{
+            objectFit: 'contain',
+            borderRadius: '100%',
+            justifyContent: 'space-between',
+            display: 'flex',
+            gap: '0px'
+          }}
+        />
+        <Image
+          alt=""
+          src='/usdc.png'
+          width={32}
+          height={32}
+          style={{
+            objectFit: 'contain',
+            borderRadius: '100%',
+            justifyContent: 'space-between',
+            display: 'flex',
+            gap: '0px'
+          }}
+        />
+      </div>   
             
               <code className="truncate">{`RUWET - USDC `} </code>
               <div></div>
